@@ -84,7 +84,7 @@ VCAP_SERVICES=
 
 ### 定制后端服务servicebroker
 
-Cloudfoundry服务的API可以连接CloudController和servicebroker，servicebroker是一组通过若干HTTP、HTTPS接口实现，一个servicebroker可以提供一个或多个服务，和其他程序一样broker也可以通过负载均衡来实现冗余broker的横向扩展，同时多个cloudfoundry系统可以通过不同的url地址或者凭证接入同一个broker。
+Cloudfoundry服务的API可以连接CloudController和servicebroker，servicebroker是一组通过若干HTTP、HTTPS接口实现接入的后端服务。一个servicebroker可以提供一个或多个服务，和其他程序一样broker也可以通过负载均衡来实现冗余broker的横向扩展，同时多个cloudfoundry系统可以通过不同的url地址或者凭证接入同一个broker。
 
 ![V2services new](http://docs.cloudfoundry.org/services/images/v2services-new.png)
 
